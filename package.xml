@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>my_drone_pkg</name>
+  <version>0.0.1</version>
+  <description>A ROS 2 package for drone base station and drone communication</description>
+  <maintainer email="syeda@todo.todo">syeda</maintainer>
+  <license>Apache-2.0</license> <!-- or your preferred license -->
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>geometry_msgs</depend>
+  <depend>tf2_ros</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
